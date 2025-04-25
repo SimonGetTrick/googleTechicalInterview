@@ -8,6 +8,7 @@
 #include <iostream>
 #include "BFS.hpp"
 #include "DFS.hpp"
+#include "maxFarmArea.hpp"
 
 int main() {
     // Demonstrating BFS
@@ -17,6 +18,7 @@ int main() {
     // Demonstrating DFS
     DFS::Graph dfsGraph(6);
     dfsGraph.demo();
-
+    
+    main_maxFarmArea();
     return 0;
 }
