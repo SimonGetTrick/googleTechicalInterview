@@ -9,6 +9,7 @@
 #include "BFS.hpp"
 #include "DFS.hpp"
 #include "maxFarmArea.hpp"
+#include "xanoiTowers.hpp"
 
 int main() {
     // Demonstrating BFS
@@ -20,5 +21,7 @@ int main() {
     dfsGraph.demo();
     
     main_maxFarmArea();
+    main_demo_Towers();
+    
     return 0;
 }

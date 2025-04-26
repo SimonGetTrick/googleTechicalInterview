@@ -14,8 +14,8 @@ using namespace std;
 
 // Function to calculate the maximum farm area and the top-left and bottom-right coordinates
 tuple<int, int, int, int, int> locatioMaxFarmArea(const vector<vector<int>>& land) {
-    int m = land.size();
-    int n = land[0].size();
+    size_t m = land.size();
+    size_t n = land[0].size();
     
     // DP table to store the side length of the largest square ending at each position
     vector<vector<int>> dp(m, vector<int>(n, 0));
@@ -52,8 +52,8 @@ tuple<int, int, int, int, int> locatioMaxFarmArea(const vector<vector<int>>& lan
 }
 
 int maxFarmArea(vector<vector<int>>& land) {
-    int m = land.size();
-    int n = land[0].size();
+    size_t m = land.size();
+    size_t n = land[0].size();
 
     // Create a DP table to store the largest square's side length at each position
     vector<vector<int>> dp(m, vector<int>(n, 0));
