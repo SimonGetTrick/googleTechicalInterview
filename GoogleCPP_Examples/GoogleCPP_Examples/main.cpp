@@ -10,6 +10,7 @@
 #include "DFS.hpp"
 #include "maxFarmArea.hpp"
 #include "xanoiTowers.hpp"
+#include "GroupSum.hpp"
 
 int main() {
     // Demonstrating BFS
@@ -20,8 +21,9 @@ int main() {
     DFS::Graph dfsGraph(6);
     dfsGraph.demo();
     
-    main_maxFarmArea();
-    main_demo_Towers();
+//    main_maxFarmArea();
+//    main_demo_Towers();
+    demo_GroupSun();
     
     return 0;
 }
